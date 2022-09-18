@@ -1,0 +1,62 @@
+.iniciar {
+    text-align: center;
+    justify-content: center;
+}
+
+.registrarse {
+    font-size: 35px;
+}
+
+.logo {
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+span.validacion {
+    font-size: 17px;
+}
+
+.a1 {
+    padding-left: 0px;
+}
+
+.abajo {
+    font-family: Poppins;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+.inputsMios {
+    border: 54px;
+    border-color: black;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 7px 5px rgb(15, 230, 150, 0.6);
+}
+
+label {
+    font-size: 18px;
+    font-family: 'Baloo Chettan', cursive;
+    color: rgb(17, 17, 17);
+    padding: 0 0 10px;
+}
+
+#btn {
+    border: 0px;
+    background-color: rgb(15, 230, 150);
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'Baloo Chettan', cursive;
+    padding: 10px;
+}
+
+#btn:hover {
+    box-shadow: 5px 5px rgb(15, 230, 150, 0.5);
+    transition: box-shadow 0.5s, border-radius 2s;
+}
+
+.inputsMios:focus {
+    background-color: rgb(15, 230, 150);
+}
