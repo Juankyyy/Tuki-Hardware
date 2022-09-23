@@ -14,6 +14,20 @@
  ----------------------------------------*****/
 
 
+/*--------------------------------------------------------------------- mio ---------------------------------------------------------------------*/
+
+.container {
+     max-width: inherit !important;
+}
+
+#der {
+     padding-left: 20px;
+}
+
+#login {
+     padding: 5px 5px;
+}
+
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
@@ -278,7 +292,7 @@ button {
      color: rgb(0, 0, 0);
      font-size: 16px;
      line-height: 20px;
-     text-transform: uppercase;
+     font-weight: bold;
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
@@ -295,6 +309,7 @@ button {
 
 .navbar-expand-md .navbar-nav {
      padding-right: 10px;
+     align-items: center;
 }
 
 .sign_btn a {

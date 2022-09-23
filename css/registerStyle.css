@@ -7,11 +7,6 @@
     font-size: 35px;
 }
 
-.logo {
-    padding-left: 12px;
-    padding-top: 12px;
-}
-
 span.validacion {
     font-size: 17px;
 }
@@ -49,7 +44,7 @@ label {
     border-radius: 25px;
     font-size: 20px;
     font-family: 'Baloo Chettan', cursive;
-    padding: 10px;
+    padding: 10px 50px;
 }
 
 #btn:hover {
@@ -59,4 +54,16 @@ label {
 
 .inputsMios:focus {
     background-color: rgb(15, 230, 150);
+}
+
+.atrasR {
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#atrasbtn {
+    float: right;
+    margin-right: 50px;
 }

@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="a/favi3.png" type="image/gif" />
+	<link rel="icon" href="a/favi3.png" type="image/gif"/>
 	<link rel="stylesheet" href="css/responsive.css">
 	<title>Tuki Registro</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -13,8 +13,15 @@
 </head>
 
 <body>
-	<a href="index.html"><img class="logo" src="a/logo1.png" /></a>
-
+	<nav>
+		<div class="atrasR">
+			<a href="index.php" id="logo"><img src="a/logo1.png"></img></a>
+			<div class=" sign_btn">
+				<a id="atrasbtn" href="login.php">Iniciar Sesión</a>
+			</div>
+		</div>
+	</nav>
+<br>
 
 	<div class="iniciar">
 		<h1 class="registrarse">Registrarse</h1>
