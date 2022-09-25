@@ -20,12 +20,105 @@
      max-width: inherit !important;
 }
 
+#tuki {
+     color: #23262d;
+}
+
+#tuki:visited {
+     text-decoration: none;
+}
+
 #der {
      padding-left: 20px;
 }
 
 #login {
      padding: 5px 5px;
+}
+
+.prod-title {
+     margin-bottom: 20px;
+}
+
+
+.product {
+     box-shadow: 0px 0px 0.5rem black;
+}
+
+.sign_btn a {
+     background-color: #2d2c2c;
+     display: inline-block;
+     padding: 7px 35px;
+     border-radius: 30px;
+     color: #fff;
+     font-size: 17px;
+     box-shadow: 0px 0px 0.5rem black;
+}
+
+.sign_btn a:hover {
+     color: #0aec98;
+     box-shadow: 0px 0px 1rem #035738;
+}
+
+/* Back to top button :D */
+#scroll {
+     position: fixed;
+     right: 10px;
+     bottom: 10px;
+     cursor: pointer;
+     width: 50px;
+     height: 50px;
+     background-color: #0AEC98;
+     text-indent: -9999px;
+     display: none;
+     -webkit-border-radius: 60px;
+     -moz-border-radius: 60px;
+     border-radius: 60px;
+     box-shadow: 0px 0px 0.5rem #000;
+}
+
+#scroll:hover {
+     box-shadow: 0px 0px 1rem #000;;
+}
+
+#scroll span {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     margin-left: -8px;
+     margin-top: -12px;
+     height: 0;
+     width: 0;
+     border: 8px solid transparent;
+     border-bottom-color: #000;
+     transition: border-bottom-color 2s;
+}
+/* Back to top button :D */
+
+.mid {
+     padding-left: 75px;
+     padding-right: 75px;
+}
+
+#usuario {
+     background: linear-gradient(to bottom, #0aec98 10%, #2bcc91 90%);
+     position: absolute;
+     margin-top: 40px;
+     padding: 10px;
+     border-radius: 10px;
+     cursor: default;
+     transition: box-shadow 0.7s, border-radius 2s;
+}
+
+#usuario:hover {
+     box-shadow: 0px 0px 0.5rem #0ada8d;
+     border-radius: 30px;
+}
+
+#setup {
+     width: 50%;
+     display: block;
+     margin: auto
 }
 
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
@@ -297,7 +390,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #000;
+     text-shadow: 0px 0px 0.7rem rgba(0, 0, 0, 0.603);
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -312,18 +405,7 @@ button {
      align-items: center;
 }
 
-.sign_btn a {
-     background-color: #2d2c2c;
-     display: inline-block;
-     padding: 7px 35px;
-     border-radius: 30px;
-     color: #fff;
-     font-size: 17px;
-}
 
-.sign_btn a:hover {
-     color: #0aec98;
-}
 
 
 /*-- header area --*/
@@ -358,9 +440,7 @@ button {
      text-align: left;
      max-width: 429px;
      width: 100%;
-     float: right;
-     padding-top: 100px;
-     padding-bottom: 50px;
+     padding-bottom: 95.9px;
 }
 
 .text-bg h1 {
@@ -409,7 +489,7 @@ button {
 }
 
 .text-img {
-     height: 750px;
+     height: 661px;
      background: linear-gradient(to bottom, #0aec98 0%, #2bcc91 100%);
      border-radius: 322px 0px 0px 380px;
      padding: 132px 20px 0px 50px;
@@ -426,25 +506,20 @@ button {
 
 .text-img figure {position: relative;}
 .text-img h3 {
-    top: 387px;
-    position: absolute;
-    align-items: center;
-    left: -14px;
-    background: #000;
-    width: 60px;
-    height: -1px;
+top: 387px;
+     position: absolute;
+     align-items: center;
+     left: -14px;
+     background: #000;
+     width: 60px;
+     height: -1px;
 
-    border-radius: 72px;
-    color: #fff;
-padding: 7px 12px;
-font-size: 21px;
-    border: #2bcc91 solid 7px;}
-
-
-
-
-
-
+     border-radius: 72px;
+     color: #fff;
+     padding: 7px 12px;
+     font-size: 21px;
+     border: #2bcc91 solid 7px;
+}
 
 .padding_right1 {
      padding-right: 0;
@@ -452,7 +527,7 @@ font-size: 21px;
 
 .titlepage {
      text-align: center;
-     padding-bottom: 0px;
+     padding-bottom: 20px;
 }
 
 .titlepage h2 {
@@ -475,7 +550,9 @@ font-size: 21px;
 .about {
      margin-top: 90px;
      background: #111111;
-     padding: 60px 0;
+     padding: 30px 20px;
+     box-shadow: 0px 0px 1rem black;
+     border-radius: 30px;
 }
 
 .about .titlepage h2 {
@@ -498,16 +575,6 @@ font-size: 21px;
 
 .about .about_box figure img {
      width: 100%;
-}
-
-.about .about_box .read_more {
-     background: #000;
-     color: #fff;
-     border-radius: 15px;
-}
-
-.about .about_box .read_more:hover {
-     background: #f55171;
 }
 
 
@@ -536,15 +603,14 @@ font-size: 21px;
      text-align: center;
      background-color: #111111;
      border-radius: 20px;
-     padding: 30px 20px;
-     margin-bottom: 30px;
+     padding: 20px 20px;
 }
 
 .best_box h4 {
      color: #fff;
      text-transform: uppercase;
-     font-size: 30px;
-     line-height: 40px;
+     font-size: 20px;
+     line-height: 25px;
      font-weight: 500;
      padding: 0;
 }
@@ -553,7 +619,7 @@ font-size: 21px;
      color: #fff;
      font-size: 17px;
      line-height: 28px;
-     padding-top: 25px;
+     padding-top: 15px;
 }
 
 .best .read_more {
@@ -840,12 +906,11 @@ font-size: 21px;
 }
 
 .copyright a {
-     color: #23262d;
-     float: right;
+     color: #fff;
 }
 
 .copyright a:hover {
-     color: #2bcc91;
+     color: #2bcc91 !important;
 }
 
 /** end footer **/
