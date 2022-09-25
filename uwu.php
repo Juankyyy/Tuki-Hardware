@@ -10,9 +10,9 @@
 	//print_r($datos);
 
 	if ($datos === FALSE) {
-		header('Location: login.html');
+		header('Location: login.php');
 	}elseif($sentencia->rowCount() == 1){
 		$_SESSION['correo'] = $datos->correos;
-		header('Location: index.html');
+		header('Location: index.php');
 	}
 ?>

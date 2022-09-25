@@ -52,7 +52,7 @@
                         <div class="full">
                            <div class="center-desk">
                               <div class="logo">
-                                 <a href="index.html"><img src="a/logo1.png" alt="#" /></a>
+                                 <a href="index.php"><img src="a/logo1.png" alt="#" /></a>
                               </div>
                            </div>
                         </div>
@@ -65,7 +65,7 @@
                            <div class="collapse navbar-collapse" id="navbarsExample04">
                               <ul class="navbar-nav mr-auto">
                                  <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Inicio</a>
+                                    <a class="nav-link" href="index.php">Inicio</a>
                                  </li>
                                  <li class="nav-item">
                                     <a class="nav-link" href="#about">Acerca de nosotros</a>
@@ -74,10 +74,10 @@
                                     <a class="nav-link" href="#productos">Productos</a>
                                  </li>
                                  <li>
-                                    <div class="sign_btn"><a href="login.html">Iniciar Sesión</a></div>
+                                    <div class="sign_btn"><a href="login.php">Iniciar Sesión</a></div>
                                  </li>
                                  <li>
-                                    <div class="sign_btn" id="der"><a href="register.html">Registrarse</a></div>
+                                    <div class="sign_btn" id="der"><a href="register.php">Registrarse</a></div>
                                  </li>
                               </ul>
                            </div>

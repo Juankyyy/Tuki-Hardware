@@ -15,9 +15,9 @@
 <body>
 	<nav>
 		<div class="atrasR">
-			<a href="index.html" id="logo"><img src="a/logo1.png"></img></a>
+			<a href="index.php" id="logo"><img src="a/logo1.png"></img></a>
 			<div class=" sign_btn">
-				<a id="atrasbtn" href="login.html">Iniciar Sesión</a>
+				<a id="atrasbtn" href="login.php">Iniciar Sesión</a>
 			</div>
 		</div>
 	</nav>
