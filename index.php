@@ -98,7 +98,7 @@
                            <h1>Tuki <br>Hardware</h1>
                            <strong>Tienda virtual de tecnología</strong>
                            <div id="usuario">
-                              <strong>¡Bienvenido, Juanky!</strong>
+                              <strong>¡Bienvenido!</strong>
                            </div>
                         </div>
                      </div>
@@ -194,7 +194,7 @@
                <div class="container">
                   <div class="row">
                      <div class="col-md-12">
-                        <p><a href="a/Terms1.pdf" target="_blank">© Tuki Hardware 2022 All Rights Reserved.</a><a id="tuki" href="a/tuki.jpg" target="_blank">tuki</a></p>
+                        <p><a href="a/Terms1.pdf" target="_blank">© Tuki Hardware 2022 Todos Los Derechos Reservados.</a><a id="tuki" href="a/tuki.jpg" target="_blank">tuki</a></p>
                      </div>
                   </div>
                </div>
