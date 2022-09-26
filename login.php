@@ -28,6 +28,7 @@
 		<h1 class="title">Iniciar Sesión</h1>
 		<form class="formularioR" name="login" method="POST" action="uwu.php">
 			<hr>
+			<h3>Usuario: <input class="inputsMios" type="text" name="nombre" required placeholder="|"> </h3>
 			<h3>Email: <input class="inputsMios" type="email" name="correo" required autofocus placeholder="|"> </h3>
 			<h3>Contraseña: <input class="inputsMios" type="password" name="contraseña" required placeholder="|"> </h3> <hr> <br>
 			<input id="btn" type="submit" name="login" value="Iniciar Sesión">
